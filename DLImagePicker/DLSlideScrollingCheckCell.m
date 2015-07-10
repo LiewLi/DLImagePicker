@@ -27,7 +27,7 @@
 
 + (CGSize)defaultSize;
 {
-    CGSize size = CGSizeMake([UIImage imageNamed:@"ImageResources.bundle/FriendsSendsPicturesSelectBigNIcon.png"].size.width/2, [UIImage imageNamed:@"ImageResources.bundle/FriendsSendsPicturesSelectBigNIcon.png"].size.height/2);
+    CGSize size = CGSizeMake([UIImage imageNamed:@"ImageResources.bundle/ToSelect.png"].size.width/2, [UIImage imageNamed:@"ImageResources.bundle/ToSelect.png"].size.height/2);
     return size;
 }
 
@@ -48,7 +48,7 @@
 
 - (void)setup
 {
-    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ImageResources.bundle/FriendsSendsPicturesSelectBigNIcon.png"]];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ImageResources.bundle/ToSelect.png"]];
     [self addSubview:imageView];
     self.imageView = imageView;
     [imageView setFrame:CGRectMake(0, 0, 28, 28)];
@@ -57,11 +57,11 @@
 - (void)setChecked:(BOOL)checked;
 {
     if (checked) {
-        UIImage *emptyCheckmark = [UIImage imageNamed:@"ImageResources.bundle/FriendsSendsPicturesSelectBigYIcon.png"];
+        UIImage *emptyCheckmark = [UIImage imageNamed:@"ImageResources.bundle/Selected.png"];
         self.imageView.image = emptyCheckmark;
         
     } else {
-        UIImage *fullCheckmark = [UIImage imageNamed:@"ImageResources.bundle/FriendsSendsPicturesSelectBigNIcon.png"];
+        UIImage *fullCheckmark = [UIImage imageNamed:@"ImageResources.bundle/ToSelect.png"];
         self.imageView.image = fullCheckmark;
     }
 }

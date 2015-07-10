@@ -26,9 +26,6 @@
 }
 - (IBAction)imagePicker:(id)sender {
     DLSlideScrollingImagePicker *picker = [[DLSlideScrollingImagePicker alloc]init];
-//    [self presentViewController:picker animated:NO completion:^{
-//        
-//    }];
     
     [self.view addSubview:picker.view];
     [self addChildViewController:picker];
