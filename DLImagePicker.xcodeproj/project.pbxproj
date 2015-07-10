@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B192B78F1B45621100F317AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B192B78E1B45621100F317AD /* main.m */; };
+		B192B7921B45621100F317AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B192B7911B45621100F317AD /* AppDelegate.m */; };
+		B192B7951B45621100F317AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B192B7941B45621100F317AD /* ViewController.m */; };
+		B192B7981B45621100F317AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B192B7961B45621100F317AD /* Main.storyboard */; };
+		B192B79A1B45621100F317AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B192B7991B45621100F317AD /* Images.xcassets */; };
+		B192B79D1B45621100F317AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B192B79B1B45621100F317AD /* LaunchScreen.xib */; };
+		B192B7A91B45621100F317AD /* DLImagePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B192B7A81B45621100F317AD /* DLImagePickerTests.m */; };
+		B192B7B51B45632600F317AD /* DLSlideScrollingImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B192B7B41B45632600F317AD /* DLSlideScrollingImagePicker.m */; };
+		B192B7B81B45854700F317AD /* DLSlideScrollingLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B192B7B71B45854700F317AD /* DLSlideScrollingLayout.m */; };
+		B192B7BB1B4585AB00F317AD /* DLSlideScrollingCheckCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B192B7BA1B4585AB00F317AD /* DLSlideScrollingCheckCell.m */; };
+		B192B7BD1B4585CA00F317AD /* ImageResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B192B7BC1B4585CA00F317AD /* ImageResources.bundle */; };
+		B192B7C01B458C2D00F317AD /* DLCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B192B7BF1B458C2D00F317AD /* DLCollectionViewCell.m */; };
+		B192B7DA1B46D3C700F317AD /* ELCAlbumPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B192B7C41B46D3C700F317AD /* ELCAlbumPickerController.m */; };
+		B192B7DB1B46D3C700F317AD /* ELCAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = B192B7C61B46D3C700F317AD /* ELCAsset.m */; };
+		B192B7DC1B46D3C700F317AD /* ELCAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B192B7C81B46D3C700F317AD /* ELCAssetCell.m */; };
+		B192B7DD1B46D3C700F317AD /* ELCAssetTablePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B192B7CC1B46D3C700F317AD /* ELCAssetTablePicker.m */; };
+		B192B7DE1B46D3C700F317AD /* ELCConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = B192B7CE1B46D3C700F317AD /* ELCConsole.m */; };
+		B192B7DF1B46D3C700F317AD /* ELCImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B192B7D01B46D3C700F317AD /* ELCImagePickerController.m */; };
+		B192B7E01B46D3C700F317AD /* ELCOverlayImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B192B7D31B46D3C700F317AD /* ELCOverlayImageView.m */; };
+		B192B7E11B46D3C700F317AD /* ELCAlbumPickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B192B7D51B46D3C700F317AD /* ELCAlbumPickerController.xib */; };
+		B192B7E21B46D3C700F317AD /* ELCAssetPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = B192B7D61B46D3C700F317AD /* ELCAssetPicker.xib */; };
+		B192B7E31B46D3C700F317AD /* ELCAssetTablePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = B192B7D71B46D3C700F317AD /* ELCAssetTablePicker.xib */; };
+		B192B7EC1B46DE1400F317AD /* Overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = B192B7EA1B46DE1400F317AD /* Overlay.png */; };
+		B192B7ED1B46DE1400F317AD /* Overlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B192B7EB1B46DE1400F317AD /* Overlay@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B192B7A31B45621100F317AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192B7811B45621100F317AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B192B7881B45621100F317AD;
+			remoteInfo = DLImagePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B192B7891B45621100F317AD /* DLImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B192B78D1B45621100F317AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B192B78E1B45621100F317AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B192B7901B45621100F317AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B192B7911B45621100F317AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B192B7931B45621100F317AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B192B7941B45621100F317AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B192B7971B45621100F317AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B192B7991B45621100F317AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B192B79C1B45621100F317AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B192B7A21B45621100F317AD /* DLImagePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLImagePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B192B7A71B45621100F317AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B192B7A81B45621100F317AD /* DLImagePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLImagePickerTests.m; sourceTree = "<group>"; };
+		B192B7B31B45632600F317AD /* DLSlideScrollingImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLSlideScrollingImagePicker.h; sourceTree = "<group>"; };
+		B192B7B41B45632600F317AD /* DLSlideScrollingImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLSlideScrollingImagePicker.m; sourceTree = "<group>"; };
+		B192B7B61B45854700F317AD /* DLSlideScrollingLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLSlideScrollingLayout.h; sourceTree = "<group>"; };
+		B192B7B71B45854700F317AD /* DLSlideScrollingLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLSlideScrollingLayout.m; sourceTree = "<group>"; };
+		B192B7B91B4585AB00F317AD /* DLSlideScrollingCheckCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLSlideScrollingCheckCell.h; sourceTree = "<group>"; };
+		B192B7BA1B4585AB00F317AD /* DLSlideScrollingCheckCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLSlideScrollingCheckCell.m; sourceTree = "<group>"; };
+		B192B7BC1B4585CA00F317AD /* ImageResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ImageResources.bundle; sourceTree = "<group>"; };
+		B192B7BE1B458C2D00F317AD /* DLCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCollectionViewCell.h; sourceTree = "<group>"; };
+		B192B7BF1B458C2D00F317AD /* DLCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCollectionViewCell.m; sourceTree = "<group>"; };
+		B192B7C31B46D3C700F317AD /* ELCAlbumPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAlbumPickerController.h; sourceTree = "<group>"; };
+		B192B7C41B46D3C700F317AD /* ELCAlbumPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAlbumPickerController.m; sourceTree = "<group>"; };
+		B192B7C51B46D3C700F317AD /* ELCAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAsset.h; sourceTree = "<group>"; };
+		B192B7C61B46D3C700F317AD /* ELCAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAsset.m; sourceTree = "<group>"; };
+		B192B7C71B46D3C700F317AD /* ELCAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetCell.h; sourceTree = "<group>"; };
+		B192B7C81B46D3C700F317AD /* ELCAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAssetCell.m; sourceTree = "<group>"; };
+		B192B7C91B46D3C700F317AD /* ELCAssetPickerFilterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetPickerFilterDelegate.h; sourceTree = "<group>"; };
+		B192B7CA1B46D3C700F317AD /* ELCAssetSelectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetSelectionDelegate.h; sourceTree = "<group>"; };
+		B192B7CB1B46D3C700F317AD /* ELCAssetTablePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetTablePicker.h; sourceTree = "<group>"; };
+		B192B7CC1B46D3C700F317AD /* ELCAssetTablePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAssetTablePicker.m; sourceTree = "<group>"; };
+		B192B7CD1B46D3C700F317AD /* ELCConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCConsole.h; sourceTree = "<group>"; };
+		B192B7CE1B46D3C700F317AD /* ELCConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCConsole.m; sourceTree = "<group>"; };
+		B192B7CF1B46D3C700F317AD /* ELCImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCImagePickerController.h; sourceTree = "<group>"; };
+		B192B7D01B46D3C700F317AD /* ELCImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCImagePickerController.m; sourceTree = "<group>"; };
+		B192B7D11B46D3C700F317AD /* ELCImagePickerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCImagePickerHeader.h; sourceTree = "<group>"; };
+		B192B7D21B46D3C700F317AD /* ELCOverlayImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCOverlayImageView.h; sourceTree = "<group>"; };
+		B192B7D31B46D3C700F317AD /* ELCOverlayImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCOverlayImageView.m; sourceTree = "<group>"; };
+		B192B7D51B46D3C700F317AD /* ELCAlbumPickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAlbumPickerController.xib; sourceTree = "<group>"; };
+		B192B7D61B46D3C700F317AD /* ELCAssetPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAssetPicker.xib; sourceTree = "<group>"; };
+		B192B7D71B46D3C700F317AD /* ELCAssetTablePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAssetTablePicker.xib; sourceTree = "<group>"; };
+		B192B7EA1B46DE1400F317AD /* Overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Overlay.png; sourceTree = "<group>"; };
+		B192B7EB1B46DE1400F317AD /* Overlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Overlay@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B192B7861B45621100F317AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B192B79F1B45621100F317AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B192B7801B45621100F317AD = {
+			isa = PBXGroup;
+			children = (
+				B192B78B1B45621100F317AD /* DLImagePicker */,
+				B192B7A51B45621100F317AD /* DLImagePickerTests */,
+				B192B78A1B45621100F317AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B192B78A1B45621100F317AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B192B7891B45621100F317AD /* DLImagePicker.app */,
+				B192B7A21B45621100F317AD /* DLImagePickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B192B78B1B45621100F317AD /* DLImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				B192B7B21B45622E00F317AD /* ImagePicker */,
+				B192B7901B45621100F317AD /* AppDelegate.h */,
+				B192B7911B45621100F317AD /* AppDelegate.m */,
+				B192B7931B45621100F317AD /* ViewController.h */,
+				B192B7941B45621100F317AD /* ViewController.m */,
+				B192B7961B45621100F317AD /* Main.storyboard */,
+				B192B7991B45621100F317AD /* Images.xcassets */,
+				B192B79B1B45621100F317AD /* LaunchScreen.xib */,
+				B192B78C1B45621100F317AD /* Supporting Files */,
+			);
+			path = DLImagePicker;
+			sourceTree = "<group>";
+		};
+		B192B78C1B45621100F317AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B192B78D1B45621100F317AD /* Info.plist */,
+				B192B78E1B45621100F317AD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B192B7A51B45621100F317AD /* DLImagePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B192B7A81B45621100F317AD /* DLImagePickerTests.m */,
+				B192B7A61B45621100F317AD /* Supporting Files */,
+			);
+			path = DLImagePickerTests;
+			sourceTree = "<group>";
+		};
+		B192B7A61B45621100F317AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B192B7A71B45621100F317AD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B192B7B21B45622E00F317AD /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				B192B7C21B46D3C700F317AD /* ELCImagePicker */,
+				B192B7BC1B4585CA00F317AD /* ImageResources.bundle */,
+				B192B7B31B45632600F317AD /* DLSlideScrollingImagePicker.h */,
+				B192B7B41B45632600F317AD /* DLSlideScrollingImagePicker.m */,
+				B192B7B61B45854700F317AD /* DLSlideScrollingLayout.h */,
+				B192B7B71B45854700F317AD /* DLSlideScrollingLayout.m */,
+				B192B7B91B4585AB00F317AD /* DLSlideScrollingCheckCell.h */,
+				B192B7BA1B4585AB00F317AD /* DLSlideScrollingCheckCell.m */,
+				B192B7BE1B458C2D00F317AD /* DLCollectionViewCell.h */,
+				B192B7BF1B458C2D00F317AD /* DLCollectionViewCell.m */,
+			);
+			name = ImagePicker;
+			sourceTree = "<group>";
+		};
+		B192B7C21B46D3C700F317AD /* ELCImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				B192B7C31B46D3C700F317AD /* ELCAlbumPickerController.h */,
+				B192B7C41B46D3C700F317AD /* ELCAlbumPickerController.m */,
+				B192B7C51B46D3C700F317AD /* ELCAsset.h */,
+				B192B7C61B46D3C700F317AD /* ELCAsset.m */,
+				B192B7C71B46D3C700F317AD /* ELCAssetCell.h */,
+				B192B7C81B46D3C700F317AD /* ELCAssetCell.m */,
+				B192B7C91B46D3C700F317AD /* ELCAssetPickerFilterDelegate.h */,
+				B192B7CA1B46D3C700F317AD /* ELCAssetSelectionDelegate.h */,
+				B192B7CB1B46D3C700F317AD /* ELCAssetTablePicker.h */,
+				B192B7CC1B46D3C700F317AD /* ELCAssetTablePicker.m */,
+				B192B7CD1B46D3C700F317AD /* ELCConsole.h */,
+				B192B7CE1B46D3C700F317AD /* ELCConsole.m */,
+				B192B7CF1B46D3C700F317AD /* ELCImagePickerController.h */,
+				B192B7D01B46D3C700F317AD /* ELCImagePickerController.m */,
+				B192B7D11B46D3C700F317AD /* ELCImagePickerHeader.h */,
+				B192B7D21B46D3C700F317AD /* ELCOverlayImageView.h */,
+				B192B7D31B46D3C700F317AD /* ELCOverlayImageView.m */,
+				B192B7D41B46D3C700F317AD /* Resources */,
+			);
+			path = ELCImagePicker;
+			sourceTree = "<group>";
+		};
+		B192B7D41B46D3C700F317AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B192B7EA1B46DE1400F317AD /* Overlay.png */,
+				B192B7EB1B46DE1400F317AD /* Overlay@2x.png */,
+				B192B7D51B46D3C700F317AD /* ELCAlbumPickerController.xib */,
+				B192B7D61B46D3C700F317AD /* ELCAssetPicker.xib */,
+				B192B7D71B46D3C700F317AD /* ELCAssetTablePicker.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B192B7881B45621100F317AD /* DLImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B192B7AC1B45621100F317AD /* Build configuration list for PBXNativeTarget "DLImagePicker" */;
+			buildPhases = (
+				B192B7851B45621100F317AD /* Sources */,
+				B192B7861B45621100F317AD /* Frameworks */,
+				B192B7871B45621100F317AD /* Resources */,
+				B192B7C11B45930400F317AD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLImagePicker;
+			productName = DLImagePicker;
+			productReference = B192B7891B45621100F317AD /* DLImagePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B192B7A11B45621100F317AD /* DLImagePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B192B7AF1B45621100F317AD /* Build configuration list for PBXNativeTarget "DLImagePickerTests" */;
+			buildPhases = (
+				B192B79E1B45621100F317AD /* Sources */,
+				B192B79F1B45621100F317AD /* Frameworks */,
+				B192B7A01B45621100F317AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B192B7A41B45621100F317AD /* PBXTargetDependency */,
+			);
+			name = DLImagePickerTests;
+			productName = DLImagePickerTests;
+			productReference = B192B7A21B45621100F317AD /* DLImagePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B192B7811B45621100F317AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "li liew";
+				TargetAttributes = {
+					B192B7881B45621100F317AD = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					B192B7A11B45621100F317AD = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = B192B7881B45621100F317AD;
+					};
+				};
+			};
+			buildConfigurationList = B192B7841B45621100F317AD /* Build configuration list for PBXProject "DLImagePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B192B7801B45621100F317AD;
+			productRefGroup = B192B78A1B45621100F317AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B192B7881B45621100F317AD /* DLImagePicker */,
+				B192B7A11B45621100F317AD /* DLImagePickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B192B7871B45621100F317AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B192B7EC1B46DE1400F317AD /* Overlay.png in Resources */,
+				B192B7E11B46D3C700F317AD /* ELCAlbumPickerController.xib in Resources */,
+				B192B7ED1B46DE1400F317AD /* Overlay@2x.png in Resources */,
+				B192B7981B45621100F317AD /* Main.storyboard in Resources */,
+				B192B79D1B45621100F317AD /* LaunchScreen.xib in Resources */,
+				B192B7E21B46D3C700F317AD /* ELCAssetPicker.xib in Resources */,
+				B192B7E31B46D3C700F317AD /* ELCAssetTablePicker.xib in Resources */,
+				B192B79A1B45621100F317AD /* Images.xcassets in Resources */,
+				B192B7BD1B4585CA00F317AD /* ImageResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B192B7A01B45621100F317AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B192B7C11B45930400F317AD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ] || [ \"${PLATFORM_NAME}\" == \"ipados\" ]; then /Applications/Xcode.app/Contents/Developer/iphoneentitlements/gen_entitlements.py \"com.liewli.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\";\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B192B7851B45621100F317AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B192B7951B45621100F317AD /* ViewController.m in Sources */,
+				B192B7DB1B46D3C700F317AD /* ELCAsset.m in Sources */,
+				B192B7DE1B46D3C700F317AD /* ELCConsole.m in Sources */,
+				B192B7921B45621100F317AD /* AppDelegate.m in Sources */,
+				B192B7BB1B4585AB00F317AD /* DLSlideScrollingCheckCell.m in Sources */,
+				B192B78F1B45621100F317AD /* main.m in Sources */,
+				B192B7DC1B46D3C700F317AD /* ELCAssetCell.m in Sources */,
+				B192B7DA1B46D3C700F317AD /* ELCAlbumPickerController.m in Sources */,
+				B192B7E01B46D3C700F317AD /* ELCOverlayImageView.m in Sources */,
+				B192B7DF1B46D3C700F317AD /* ELCImagePickerController.m in Sources */,
+				B192B7C01B458C2D00F317AD /* DLCollectionViewCell.m in Sources */,
+				B192B7B51B45632600F317AD /* DLSlideScrollingImagePicker.m in Sources */,
+				B192B7B81B45854700F317AD /* DLSlideScrollingLayout.m in Sources */,
+				B192B7DD1B46D3C700F317AD /* ELCAssetTablePicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B192B79E1B45621100F317AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B192B7A91B45621100F317AD /* DLImagePickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B192B7A41B45621100F317AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B192B7881B45621100F317AD /* DLImagePicker */;
+			targetProxy = B192B7A31B45621100F317AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B192B7961B45621100F317AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B192B7971B45621100F317AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B192B79B1B45621100F317AD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B192B79C1B45621100F317AD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B192B7AA1B45621100F317AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B192B7AB1B45621100F317AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B192B7AD1B45621100F317AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = DLImagePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B192B7AE1B45621100F317AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = DLImagePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B192B7B01B45621100F317AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DLImagePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DLImagePicker.app/DLImagePicker";
+			};
+			name = Debug;
+		};
+		B192B7B11B45621100F317AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DLImagePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DLImagePicker.app/DLImagePicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B192B7841B45621100F317AD /* Build configuration list for PBXProject "DLImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B192B7AA1B45621100F317AD /* Debug */,
+				B192B7AB1B45621100F317AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B192B7AC1B45621100F317AD /* Build configuration list for PBXNativeTarget "DLImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B192B7AD1B45621100F317AD /* Debug */,
+				B192B7AE1B45621100F317AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B192B7AF1B45621100F317AD /* Build configuration list for PBXNativeTarget "DLImagePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B192B7B01B45621100F317AD /* Debug */,
+				B192B7B11B45621100F317AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B192B7811B45621100F317AD /* Project object */;
+}
