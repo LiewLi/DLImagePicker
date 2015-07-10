@@ -6,6 +6,6 @@
 ## How to use DLImagePicker
 ```objectivec 
 DLSlideScrollingImagePicker *picker = [[DLSlideScrollingImagePicker alloc]init];
-[self.view addSubview:picker.view];
+[self.view addSubview:picker.view]; //self is kind of UIViewController
 [self addChildViewController:picker]; 
 ```
